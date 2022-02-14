@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --secondary: #898f9c;
+  --primary: #4267b2;
+  --light: #ffffff;
+  --backgroundColor: #e5e5e5;
+  --dark: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  height: auto;
+  width: 375px;
+  margin: auto;
+}
+
+.createContainer p {
+  background-color: var(--primary);
+  height: 30px;
+  color: var(--light);
+  font-size: 20px;
+}
+
+.createContainer p i {
+  margin: 5px;
+}
+
+.textArea {
+  height: 200px;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  resize: none;
+}
+.textArea:focus {
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  z-index: 100;
+  margin-left: 5px;
+  margin-top: -35px;
+}
+
+form button {
+  background-color: transparent;
+  border: none;
+}
+
+.createContainer .postButton {
+  font-family: "Open Sans", sans-serif;
+
+  float: right;
+  margin-top: 10px;
+  height: 40px;
+  width: 60px;
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  cursor: pointer;
+}
+
+.createContainer .out {
+  margin-top: 10px;
+}
+
+.createContainer .out figure img {
+  height: auto;
+  width: 100px;
+}
+
+.postContainer {
+  background-color: var(--light);
+}
+
+.postContainer .post {
+  /* padding: 10px; */
+}
+
+.postContainer .post figure img {
+  height: auto;
+  width: 100%;
+}
